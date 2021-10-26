@@ -1,16 +1,16 @@
 pragma solidity 0.5.11;
 
-import "../ManagerProxyTarget.sol";
-import "./IBondingManager.sol";
-import "../libraries/SortedDoublyLL.sol";
-import "../libraries/MathUtils.sol";
-import "../libraries/PreciseMathUtils.sol";
-import "./libraries/EarningsPool.sol";
-import "./libraries/EarningsPoolLIP36.sol";
-import "../token/ILivepeerToken.sol";
-import "../token/IMinter.sol";
-import "../rounds/IRoundsManager.sol";
-import "../snapshots/IMerkleSnapshot.sol";
+import "../../ManagerProxyTarget.sol";
+import "../IBondingManager.sol";
+import "../../libraries/SortedDoublyLL.sol";
+import "../../libraries/MathUtils.sol";
+import "../../libraries/PreciseMathUtils.sol";
+import "./../libraries/EarningsPool.sol";
+import "../libraries/EarningsPoolLIP36.sol";
+import "../../token/ILivepeerToken.sol";
+import "../../token/IMinter.sol";
+import "../../rounds/IRoundsManager.sol";
+import "../../snapshots/IMerkleSnapshot.sol";
 
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 
